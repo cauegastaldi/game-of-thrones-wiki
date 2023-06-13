@@ -6,6 +6,8 @@ const cors = require("cors");
 const porta = 8000;
 const app = express();
 
+await db.sync();
+
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 app.use(cors());
