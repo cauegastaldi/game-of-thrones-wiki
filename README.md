@@ -4,16 +4,9 @@ Bibliotecas necessárias (acessíveis via npm): express, express-validator, mysq
 
 Instruções de execução:
 
-Criar um arquivo ".env" na raíz do diretório do back-end e colocar os seguintes atributos: DB_NAME, DB_USER, DB_PASSWORD e DB_HOST, sendo, respectivamente, os atributos para o nome da base de dados, nome do usuário do banco de dados, senha do usuário do banco de dados, e o host do usuário do banco de dados (no caso "localhost").
-Exemplo:
-DB_NAME="gotwiki"
-DB_USER="caue"
-DB_PASSWORD="caue"
-DB_HOST="localhost"
+Criar um arquivo ".env" na raíz do diretório do back-end e colocar os seguintes atributos: DB_NAME, DB_USER, DB_PASSWORD e DB_HOST, sendo, respectivamente, os atributos para o nome da base de dados, nome do usuário do banco de dados, senha do usuário do banco de dados, e o host do usuário do banco de dados.
 
-Após isso, para criar a base de dados, suas tabelas, e populá-las, é preciso executar o script "criar-e-popular-banco.js" que fica no diretório "scripts".
-
-Após executar o script, para inicar a execução da aplicação principal, executar o arquivo "app.js" que fica no diretório raíz do projeto, por meio do comando "node app.js".
+Após isso, é preciso executar o arquivo "app.js" que fica no diretório raíz do projeto, por meio do comando "node app.js".
 
 As rotas disponíveis são:
 
